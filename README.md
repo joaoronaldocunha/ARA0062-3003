@@ -14,4 +14,4 @@ Atuar no desenvolvimento de um projeto *Web* para exercitar conceitos envolvendo
 
 - Bootstrap
 - Angular
-- Laravel
+- Laravel PHP
