@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: green;
+  background-color: lightgray;
+}
+
+div {
+  width: 62.5px;
+}
+div p {
+  font-size: 2em;
+  font-weight: bold;
+}
+div li {
+  letter-spacing: 5px;
+}
+div span a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 0.5em;
+}/*# sourceMappingURL=estilo.css.map */

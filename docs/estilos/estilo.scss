@@ -1,0 +1,36 @@
+@import 'comum';
+
+@mixin tamanho_texto($tamanho) {
+    font-size: $tamanho;
+    font-weight: bold;
+}
+
+$primary-color: green;
+$secondary-color: lightgray;
+
+body {
+    color: $primary-color;
+    background-color: $secondary-color;
+}
+
+div {
+    width: (600px / 960) * 100;
+
+    p {
+        @include tamanho_texto(2em);
+    }
+
+    li {
+        letter-spacing: 5px;
+    }
+
+    span {
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+p {
+    font-size: 0.5em;
+}
